@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <title>Recipe App</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-info mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">My Recipes</a>
+    </div>
+  </nav>
+  <div class="container" id="recipesContainer">
+    <h2>Delicious Recipe Collection</h2>
+    <p class="lead">Search a recipe by name</p>
+    <div class="form-group">
+      <input type="text" id="meal_name" class="form-control" placeholder="Meal name">
+    </div>
+    <p id="search_outcome"></p>
+    <button class="recipes-submit btn btn-outline-info btn-block-xs-only" id="find_recipes">Find recipes</button>
+    <br></br>
+
+    <!--List-->
+
+    <!--Pagination-->
+  
+    <!-- Modal -->
+    <div class="modal fade" id="recipeModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Chicken Handi</h4>
+            <button type="button" class="close" id="dismissBtn" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row mb-3">
+                <div class="col-12">
+                  <h5 id="meal_type">Indian</h5>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-6" id="ingredients">
+                  <h5>Ingredients:</h5>
+                  <p id="ingredients_content"></p>
+                </div>
+                <div class="col-6 form-group" id="edit_ingredients">
+                  <textarea class="form-control" rows="14" id="ingr_textarea"></textarea>
+                </div>
+                <div class="col-6"><img src="" id="modal_img"></div>
+              </div>
+              <div class="row">
+                <div class="col-12" id="preparation">
+                  <h5>Preparation:</h5>
+                  <p id="preparation_content"></p>
+                </div>
+                <div class="col-12 form-group" id="edit_preparation">
+                  <textarea class="form-control" rows="10" id="prep_textarea"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p id="notification"></p>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info" id="saveBtn">Save</button>
+            <button type="button" class="btn btn-secondary hide" id="editBtn">Edit</button>
+            <button type="button" class="btn btn-info hide" id="deleteBtn">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <p id="random_meal_p">No ideas? Don't worry, click the button below to lookup a single random meal</p>
+    <button class="submit btn btn-outline-info btn-block-xs-only" id="surprise_button">Surprise me!</button>
+    <br></br>
+    <div class="row" id="recipes"></div>
+  </div>
+
+  <script src="/assets/jquery-3.5.0.slim.min.js"></script>
+  <script src="/assets/bootstrap.min.js"></script>
+  <script src="build/bundle.js"></script>
+</body>
+
+</html>
