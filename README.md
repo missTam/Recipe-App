@@ -53,14 +53,18 @@ $ npm start
 
 # Screenshots
 
-<img src="images/recipeApp.png">
+<img src="images/recipeApp.PNG">
 
-<img src="images/singleRecipe.png">
+<img src="images/singleRecipe.PNG">
 
 # Credits
 
 [Webpack](https://webpack.js.org/)
+
 [Babel](https://babeljs.io/)
+
 [JSON_server](https://github.com/typicode/json-server)
+
 [TheMealDB](https://www.themealdb.com/api.php)
+
 [Bootstrap](https://getbootstrap.com/)
