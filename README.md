@@ -11,7 +11,7 @@ Features:
 - custom HTTP library based on async/ await with fetch API
 - pagination
 - CRUD operations
-- js modules
+- ES6 js modules
 
 # Design
 
