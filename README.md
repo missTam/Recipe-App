@@ -6,8 +6,6 @@ A responsive, complete CRUD Web Application for browsing cooking recipes onlne, 
 
 VanillaJS (no frameworks)
 
-Features:
-
 - custom HTTP library based on async/ await with fetch API
 - pagination
 - CRUD operations
