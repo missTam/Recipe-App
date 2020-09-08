@@ -1,8 +1,8 @@
-# Recipe App
+## Recipe App
 
 A responsive, complete CRUD Web Application for browsing cooking recipes onlne, and creating a personalized collection of recipes based on the findings. A user can save preferred recipes, update and delete them.
 
-# Code Properties
+## Code Properties
 
 VanillaJS (no frameworks)
 
@@ -11,19 +11,19 @@ VanillaJS (no frameworks)
 - CRUD operations
 - ES6 js modules
 
-# Design
+## Design
 
 Bootstrap v4.0.0
 
-# Babel, Webpack and Webpack-dev-server
+## Babel, Webpack and Webpack-dev-server
 
 Webpack compiler transpiles ES6+ js code down to ES5 code. It additionally supports the common js modules, whereas babel enables the use of ES6 modules. Webpack-dev-server is used to 'serve' the bundled main.js code in the browser.
 
-# JSON Server
+## JSON Server
 
 A full fake REST API - a quick back-end solution for prototyping and mocking.
 
-# Installation & Setup
+## Installation & Setup
 
 Install all dependencies:
 
@@ -49,13 +49,13 @@ In another terminal, start the webpack-dev-server:
 $ npm start
 ```
 
-# Screenshots
+## Screenshots
 
 <img src="images/recipeApp.PNG">
 
 <img src="images/singleRecipe.PNG">
 
-# Credits
+## Links
 
 [Webpack](https://webpack.js.org/)
 
