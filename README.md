@@ -1,6 +1,6 @@
 ## Recipe App
 
-A responsive, complete CRUD Web Application for browsing cooking recipes onlne, and creating a personalized collection of recipes based on the findings. A user can save preferred recipes, update and delete them.
+A responsive, complete Web Application for browsing cooking recipes onlne, and creating a personalized collection of recipes based on the findings. A user can save preferred recipes, update and delete them.
 
 ## Code Properties
 
