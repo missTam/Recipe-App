@@ -4,8 +4,7 @@ Responsive Web Application for browsing cooking recipes onlne, and creating a pe
 
 ## Code Properties
 
-VanillaJS (no frameworks)
-
+VanillaJS 
 - custom HTTP library based on async/ await with fetch API
 - pagination
 - CRUD operations
