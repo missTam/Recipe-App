@@ -2,7 +2,7 @@
 
 Responsive Web Application for browsing cooking recipes onlne, and creating a personalized collection of recipes based on the findings. A user can save preferred recipes, update and delete them.
 
-## Code Properties
+## Details
 
 VanillaJS 
 - custom HTTP library based on async/ await with fetch API
